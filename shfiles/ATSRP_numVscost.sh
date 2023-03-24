@@ -1,0 +1,10 @@
+# #!/bin/bash
+
+python 'active_search.py' 'data_TGFF/data_single_TGFF1_norm_72.pt' '--lr' '0.0001' '--pretrained_model_path' 'models_data_final/model_pretrain_05-06_21-19.pt' '--max_iter' '1000' '--num_samples' '16' '--obj_fun' 'comm_cost' '--inj_rate' '0.001'
+python 'active_search.py' 'data_TGFF/data_single_TGFF1_norm_72.pt' '--lr' '0.0001' '--pretrained_model_path' 'models_data_final/model_pretrain_05-06_21-19.pt' '--max_iter' '1000' '--num_samples' '32' '--obj_fun' 'comm_cost' '--inj_rate' '0.001'
+python 'active_search.py' 'data_TGFF/data_single_TGFF1_norm_72.pt' '--lr' '0.0001' '--pretrained_model_path' 'models_data_final/model_pretrain_05-06_21-19.pt' '--max_iter' '1000' '--num_samples' '64' '--obj_fun' 'comm_cost' '--inj_rate' '0.001'
+python 'active_search.py' 'data_TGFF/data_single_TGFF1_norm_72.pt' '--lr' '0.0001' '--pretrained_model_path' 'models_data_final/model_pretrain_05-06_21-19.pt' '--max_iter' '1000' '--num_samples' '128' '--obj_fun' 'comm_cost' '--inj_rate' '0.001'
+python 'active_search.py' 'data_TGFF/data_single_TGFF1_norm_72.pt' '--lr' '0.0001' '--pretrained_model_path' 'models_data_final/model_pretrain_05-06_21-19.pt' '--max_iter' '1000' '--num_samples' '256' '--obj_fun' 'comm_cost' '--inj_rate' '0.001'
+python 'active_search.py' 'data_TGFF/data_single_TGFF1_norm_72.pt' '--lr' '0.0001' '--pretrained_model_path' 'models_data_final/model_pretrain_05-06_21-19.pt' '--max_iter' '1000' '--num_samples' '512' '--obj_fun' 'comm_cost' '--inj_rate' '0.001'
+python 'active_search.py' 'data_TGFF/data_single_TGFF1_norm_72.pt' '--lr' '0.0001' '--pretrained_model_path' 'models_data_final/model_pretrain_05-06_21-19.pt' '--max_iter' '1000' '--num_samples' '1024' '--obj_fun' 'comm_cost' '--inj_rate' '0.001'
+python 'active_search.py' 'data_TGFF/data_single_TGFF1_norm_72.pt' '--lr' '0.0001' '--pretrained_model_path' 'models_data_final/model_pretrain_05-06_21-19.pt' '--max_iter' '1000' '--num_samples' '2048' '--obj_fun' 'comm_cost' '--inj_rate' '0.001'
